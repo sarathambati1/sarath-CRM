@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMarket - My Orders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .order {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .order h2 {
+            margin-bottom: 10px;
+        }
+        .order p {
+            margin-bottom: 5px;
+        }
+        .order-details {
+            display: flex;
+            justify-content: space-between;
+        }
+        .order-status {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Orders</h1>
+
+    <div class="order">
+        <h2>Order #12345</h2>
+        <div class="order-details">
+            <div>
+                <p>Order Date: January 15, 2024</p>
+                <p>Total Amount: $50.99</p>
+            </div>
+            <div>
+                <p>Status: <span class="order-status">Shipped</span></p>
+                <p>Estimated Delivery: January 20, 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="order">
+        <h2>Order #67890</h2>
+        <div class="order-details">
+            <div>
+                <p>Order Date: January 20, 2024</p>
+                <p>Total Amount: $75.50</p>
+            </div>
+            <div>
+                <p>Status: <span class="order-status">Delivered</span></p>
+                <p>Delivered On: January 25, 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add more order details as needed -->
+
+</body>
+</html>
